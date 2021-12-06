@@ -37,7 +37,7 @@ const addTransaction = function( data ) {
 		ajCoin.addTransaction( tx );
 		// if pendingTransactions has 100 transactions, then start mining process
 		if( ajCoin.pendingTransactions.length == 100 ) {
-			ajCoin.minePendingTransactions();
+			ajCoin.minePendingTransactions( data.fromAddress );
 		}
 		return tx;
 	}

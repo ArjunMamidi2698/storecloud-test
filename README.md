@@ -114,4 +114,7 @@ server port in the .env file should match the curl request port
 ```
 
 ## Postman collection:
-https://www.getpostman.com/collections/9cf3508db07eaf774ef0
+https://www.postman.com/collections/9cf3508db07eaf774ef0
+
+## Api testing Video here:
+./blockchain-implementation.webm
