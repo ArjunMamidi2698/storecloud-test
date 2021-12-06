@@ -65,17 +65,17 @@
     ajCoin.minePendingTransactions( miningRewardAddress );
 ```
 
-## install packages
+## Install packages
     > npm i
     > npm i -g mocha
 
-## start server
+## Start Server
     > npm run server
 
-## start client( open new terminal )
+## Start Client( open new terminal )
     > npm run client
 
-## to run test cases
+## Run test cases
     > npm run test
 
 ## .env file
