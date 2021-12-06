@@ -67,6 +67,9 @@
 ## start client( open new terminal )
     > npm run client
 
+## to run test cases
+    > npm run test
+
 ## .env file
 ```
     // these can be changed for testing
@@ -103,4 +106,4 @@
 ```
 
 ## Postman collection:
-https://www.getpostman.com/collections/78917bb6754481e37469
+https://www.getpostman.com/collections/9cf3508db07eaf774ef0
