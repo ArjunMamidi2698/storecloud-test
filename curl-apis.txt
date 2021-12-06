@@ -1,0 +1,12 @@
+curl http://localhost:2021/getChain
+
+curl http://localhost:2021/getFinishedBlocksCount
+
+curl http://localhost:2021/getLatestBlock
+curl http://localhost:2021/getBlock/<index>
+curl http://localhost:2021/getBlock?hash=<hash>
+curl http://localhost:2021/getPreviousBlock?hash=<hash>
+
+curl http://localhost:2021/getBalance/<address>
+curl http://localhost:2021/getAllTransactions/<address>
+curl http://localhost:2021/getPendingTransactions

@@ -1,0 +1,35 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "learn and test blockchain concepts",
+  "main": "server/server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "merkletreejs": "^0.2.24",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "cd server/ && node server.js",
+    "client": "cd client/ && node client.js",
+    "test": "mocha tests/*.test.js"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrencies",
+    "merkletree",
+    "identities",
+    "signature"
+  ],
+  "author": "mallikharjuna.mamidi",
+  "license": "ISC"
+}
