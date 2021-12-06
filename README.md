@@ -1,5 +1,31 @@
 # storecloud-test
 
+## Requirements
+
+### Node
+- #### Windows installation of Node
+
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+
+
+- #### Ubuntu installation of Node
+
+  You can install nodejs and npm easily with apt install, just run the following commands.
+
+      $ sudo apt install nodejs
+      $ sudo apt install npm
+
+- #### Other Operating Systems
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+
+If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+    v12.10.0
+
+    $ npm --version
+    6.12.0
+
 
 ## Concepts involved:
  - Merkle tree root hash for transactions
@@ -13,8 +39,8 @@
 
 
  ## Cloning repository
-    > git clone https://github.com/ArjunMamidi2698/storecloud-test.git
-    > cd storecloud-test/
+    $ git clone https://github.com/ArjunMamidi2698/storecloud-test.git
+    $ cd storecloud-test/
 
  ## Functionality:
 
@@ -66,17 +92,17 @@
 ```
 
 ## Install packages
-    > npm i
-    > npm i -g mocha
+    $ npm i
+    $ npm i -g mocha
 
 ## Start Server
-    > npm run server
+    $ npm run server
 
 ## Start Client( open new terminal )
-    > npm run client
+    $ npm run client
 
 ## Run test cases
-    > npm run test
+    $ npm run test
 
 ## .env file
 ```
