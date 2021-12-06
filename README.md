@@ -35,7 +35,15 @@
     const tree = new MerkleTree( leaves, SHA256 );
     merkleTreeRootHash = tree.getRoot().toString( 'hex' ); // store this in block
 ```
-
+- To sign a message
+```
+    signingKey.sign( message, 'base64' ).toDER( 'hex' );
+```
+- Verify the signature
+```
+    // Verify the signature to check if tampering is done or not
+    signingKey.verify( message, signature );
+```
 
 - To create BlockChain instance
 ```
@@ -81,8 +89,8 @@
 ```
 
 ## Api's exposed:
-```
-    // server port in the .env file should match the curl request port
+server port in the .env file should match the curl request port
+```   
     - curl http://localhost:2021/getChain
         - retrieves chain of blockchain instance
     - curl http://localhost:2021/getFinishedBlocksCount
